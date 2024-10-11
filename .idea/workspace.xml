@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7586667-51a4-431d-819e-fed1c8c3a717" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DistribucionNormal.py" beforeDir="false" afterPath="$PROJECT_DIR$/DistribucionNormal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos_aleatorios.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="c7586667-51a4-431d-819e-fed1c8c3a717" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728661191219</updated>
-      <workItem from="1728661201297" duration="1444000" />
+      <workItem from="1728661201297" duration="1828000" />
     </task>
     <servers />
   </component>
@@ -88,6 +84,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/generacionCSV$DistribucionNormal.coverage" NAME="DistribucionNormal Coverage Results" MODIFIED="1728662632411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/generacionCSV$DistribucionNormal.coverage" NAME="DistribucionNormal Coverage Results" MODIFIED="1728662764076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
