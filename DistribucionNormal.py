@@ -3,10 +3,10 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
-# Cabecera con la nueva columna 'id'
+
 cabecera = ['id', 'edad', 'altura', 'peso', 'nota_final', 'genero']
 
-# Rangos de los parámetros
+
 rangos = {
     'edad': (20, 25),
     'altura': (160, 180),
@@ -19,10 +19,10 @@ rangos = {
 # Función para generar los datos
 def generar_datos():
     datos = {}
-    # Generar ID secuencial
+
     datos['id'] = np.arange(1, 1001)
 
-    for parametro in cabecera[1:]:  # Comenzamos desde 'edad' en adelante, ya que 'id' ya lo tenemos
+    for parametro in cabecera[1:]:
         if parametro == 'genero':
             datos[parametro] = np.random.choice(rangos[parametro], 1000)
         else:
@@ -45,13 +45,13 @@ def comparar_datos(df, parametro):
     plt.show()
 
 
-# Generar los datos
+
 df = generar_datos()
 df[['edad', 'altura', 'peso', 'nota_final']] = df[['edad', 'altura', 'peso', 'nota_final']].round(2)
 
-# Guardar en un archivo CSV
+
 df.to_csv('datos_estudiantes.csv', index=False)
 
-# Comparar las distribuciones
-for parametro in cabecera[1:-1]:  # Excluimos 'id' y 'genero' para las comparaciones
+
+for parametro in cabecera[1:-1]:
     comparar_datos(df, parametro)
