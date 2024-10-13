@@ -4,7 +4,7 @@ Este proyecto genera datos aleatorios para diferentes parámetros (edad, altura,
 
 ## Enlace a GitHub
 
-Puedes encontrar el código fuente de este proyecto en el siguiente enlace: [https://github.com/tu-usuario/distribucion-normal-y-datos-aleatorios](https://github.com/tu-usuario/distribucion-normal-y-datos-aleatorios)
+Puedes encontrar el código fuente de este proyecto en el siguiente enlace: https://github.com/campana-gauss/generacionCSV.git
 
 
 ## Funcionamiento
