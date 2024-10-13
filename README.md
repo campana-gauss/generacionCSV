@@ -1,8 +1,16 @@
+# colaboradores
+
+Daniel Andres Moreno Rey
+
+Rodrigo Rojas Redondo
+
 # generacionCSV
 
 Este proyecto genera datos aleatorios para diferentes parámetros (edad, altura, peso, nota final y género) y compara su distribución con una distribución normal. El objetivo es visualizar cómo se distribuyen los datos aleatorios en relación con una distribución normal.
 
 ## Enlace a GitHub
+
+Puedes encontrar la organización con los dos proyectos en el siguiente enlace: https://github.com/campana-gauss
 
 Puedes encontrar el código fuente de este proyecto en el siguiente enlace: https://github.com/campana-gauss/generacionCSV.git
 
